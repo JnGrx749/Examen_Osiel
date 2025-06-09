@@ -1,0 +1,56 @@
+.sidebar {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #9c9eab 0%, #333 100%);
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #9c9eab 0%, #333 100%);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #9c9eab 0%, #333 100%);
+}
+
+.login-container {
+    background: linear-gradient(135deg, #9c9eab 0%, #333 100%);
+    min-height: 100vh;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    border-top: none;
+}
+
+.badge {
+    font-size: 0.75em;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    background: linear-gradient(135deg, #9c9eab 0%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
